@@ -81,13 +81,27 @@ $_SESSION['KCFINDER'] = array(
 'uploadDir' => '',
  ```
 
+```php
+/**
+ * KcFinder has a SESSION key name 'KCFINDER'
+ * You can use this as setup your dynamic config vales
+ * if you set uploadURL and uploadDir via SESSION, KcFinder ignore config.php
+ * to get these values and it start using SESSION values
+ */
+$_SESSION['KCFINDER'] = array(
+    'disabled' 	=> false,
+    'uploadURL' => 'http://www.site.com/upload',
+    'uploadDir' => 'var/htdocs/www/upload'
+);
+```
+
 ### Screenshots:
 
-- 1) - ![Screen -1](https://raw.githubusercontent.com/neerajsinghsonu/KcFinder_CkEditor_Absolute_Url/master/First-Screen.PNG)
+>1) - ![Screen -1](https://raw.githubusercontent.com/neerajsinghsonu/KcFinder_CkEditor_Absolute_Url/master/First-Screen.PNG)
 
-- 2) - ![Screen -2](https://raw.githubusercontent.com/neerajsinghsonu/KcFinder_CkEditor_Absolute_Url/master/Second-Screen.PNG)
+>2) - ![Screen -2](https://raw.githubusercontent.com/neerajsinghsonu/KcFinder_CkEditor_Absolute_Url/master/Second-Screen.PNG)
 
-- 3) - ![Screen -3](https://raw.githubusercontent.com/neerajsinghsonu/KcFinder_CkEditor_Absolute_Url/master/third-Screen.PNG)
+>3) - ![Screen -3](https://raw.githubusercontent.com/neerajsinghsonu/KcFinder_CkEditor_Absolute_Url/master/third-Screen.PNG)
 
 Thanks to kcfinder and ckeditor to make these AWESOME tools.. :) 
 
