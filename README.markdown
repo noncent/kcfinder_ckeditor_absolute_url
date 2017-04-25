@@ -24,12 +24,16 @@ So I just made a demo about KCFinder setup with CKEditor. The code ready to use,
 
 ### Version Details
 > A) - CkEditor 4.6.2
+
 > B) - KcFinder 3.12
 
 ### Path Details
 > A) - Project 	Path - D:/wamp/www/CkEditor-KcFinder
+
 > B) - Upload  	Path - D:/wamp/www/CkEditor-KcFinder/upload
+
 > C) - CkEditor 	Path - D:/wamp/www/CkEditor-KcFinder/ckeditor
+
 > D) - KcFinder 	Path - D:/wamp/www/CkEditor-KcFinder/kcfinder
 
 ### Setting Details - settings.php
