@@ -1,12 +1,15 @@
-# How To Setup KCFinder with absolute URL with CkEditor:
+### How To Setup KCFinder with absolute URL with CkEditor:
 
 Recently in a project I need to use some Rich Text Formatter (RTF)/WYSIWYG text editor, I decided to select some of available in web.
 
 I wanted to upload images via WYSIWYG text editor, so I used:
 
-A) - CKEditor
-B) - KCFinder as alternative of CkFinder
-C) - Prevent WYSIWYG upload access, if user not login
+> A) - CKEditor
+
+> B) - KCFinder as alternative of CkFinder
+
+> C) - Prevent WYSIWYG upload access, if user not login
+
 
 I wanted absolute url of upload image or selected image from WYSIWYG text editor
 e.g. "http://localhost/CkEditor-KcFinder/upload/4856dkfgd674768.jpg"
@@ -15,27 +18,27 @@ I also found that many users are confuse to setup KCFinder with CKEditor. They a
 
 So I just made a demo about KCFinder setup with CKEditor. The code ready to use, what you have to do
 
-1) download repository/clone
-2) unzip the source code in your wamp/lamp/xamp root folder and access the url to start demo
-3) open http://localhost/CkEditor-KcFinder/
+> 1) download repository/clone
+> 2) unzip the source code in your wamp/lamp/xamp root folder and access the url to start demo
+> 3) open http://localhost/CkEditor-KcFinder/
 
-# Version Details
-A) - CkEditor 4.6.2
-B) - KcFinder 3.12
+### Version Details
+> A) - CkEditor 4.6.2
+> B) - KcFinder 3.12
 
-# Path Details
-A) - Project 	Path - D:/wamp/www/CkEditor-KcFinder
-B) - Upload  	Path - D:/wamp/www/CkEditor-KcFinder/upload
-C) - CkEditor 	Path - D:/wamp/www/CkEditor-KcFinder/ckeditor
-D) - KcFinder 	Path - D:/wamp/www/CkEditor-KcFinder/kcfinder
+### Path Details
+> A) - Project 	Path - D:/wamp/www/CkEditor-KcFinder
+> B) - Upload  	Path - D:/wamp/www/CkEditor-KcFinder/upload
+> C) - CkEditor 	Path - D:/wamp/www/CkEditor-KcFinder/ckeditor
+> D) - KcFinder 	Path - D:/wamp/www/CkEditor-KcFinder/kcfinder
 
-# Setting Details - settings.php
+### Setting Details - settings.php
 Make the changes according to your requirement in "D:/wamp/www/CkEditor-KcFinder/settings.php"
 
 
-# File information:
+### File information:
 - KcFinder Core Changes
-File: D:\wamp\www\CkEditor-KcFinder\kcfinder\core\bootstrap.php
+> File: D:\wamp\www\CkEditor-KcFinder\kcfinder\core\bootstrap.php
 
 ```php
 # To check valid SESSION, I have added below code:
@@ -51,7 +54,7 @@ if (!isset($_SESSION[$_SESSION['AuthCheckKey']]) || $_SESSION[$_SESSION['AuthChe
 }
 ```
 - KcFinder Config Changes
-File: D:\wamp\www\CkEditor-KcFinder\kcfinder\conf\config.php
+> File: D:\wamp\www\CkEditor-KcFinder\kcfinder\conf\config.php
 
 We don't need to set anything in 'config.php' actually, if we are using, 'KCFINDER' session variable to store the session configuration. 
 
@@ -69,9 +72,9 @@ $_SESSION['KCFINDER'] = array(
 
 
 ```php
-    'disabled' => '',
-    'uploadURL' => '',
-    'uploadDir' => '',
+'disabled' => '',
+'uploadURL' => '',
+'uploadDir' => '',
  ```
 
 Thanks to kcfinder and ckeditor to make these AWESOME tools.. :) 
