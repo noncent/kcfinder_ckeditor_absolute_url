@@ -79,11 +79,7 @@ $_SESSION['KCFINDER'] = array(
 
 Thanks to kcfinder and ckeditor to make these AWESOME tools.. :) 
 
-1 - https://kcfinder.sunhater.com/install
-2 - http://ckeditor.com/
+- 1 - https://kcfinder.sunhater.com/install
+- 2 - http://ckeditor.com/
 
 # End Here
-
-
-
-
