@@ -18,7 +18,7 @@ I also found that many users are confuse to setup KCFinder with CKEditor. They a
 
 So I just made a demo about KCFinder setup with CKEditor. The code ready to use, what you have to do
 
-> 1) download repository/clone
+> 1) [download](https://github.com/neerajsinghsonu/KcFinder_CkEditor_Absolute_Url/archive/master.zip) repository/clone
 > 2) unzip the source code in your wamp/lamp/xamp root folder and access the url to start demo
 > 3) open http://localhost/CkEditor-KcFinder/
 
